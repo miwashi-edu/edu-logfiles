@@ -1,0 +1,15 @@
+/log/record/date=2015-04-03T16:04:44
+/log/record/millis=1428091484804
+/log/record/sequence=0
+/log/record/logger=MyClass
+/log/record/level=SEVERE
+/log/record/class=MyClass /log/record/method=main
+/log/record/thread=1 /log/record/message=An exception occurred
+xml2 works equally well when with parsing Log4j logs. Note that attributes begin with "@".
+/Events/@xmlns=https://logging.apache.org/Log4j/2.0/events
+/Events/Event/@xmlns=https://logging.apache.org/Log4j/2.0/events
+/Events/Event/@timeMillis=1428502398194
+/Events/Event/@thread=main /Events/Event/@level=ERROR
+/Events/Event/@loggerName=MyClass /Events/Event/@endOfBatch=false
+/Events/Event/@loggerFqcn=org.apache.logging.Log4j.spi.AbstractLogger
+/Events/Event/Message=An exception occurred
